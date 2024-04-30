@@ -114,6 +114,8 @@ void remove()
 
 		inicio = inicio->prox;
 
+		cout << "O elemento " << apagar->valor << " foi removido." << endl;
+
 		free(apagar);
 	}
 
